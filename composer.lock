@@ -780,16 +780,16 @@
         },
         {
             "name": "csa/guzzle-bundle",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/csarrazi/CsaGuzzleBundle.git",
-                "reference": "7a69201bb5f1c60e11ca6a1e00f630ca0fe47806"
+                "reference": "c54f9daeae991f922fdc0b80fdcccf7cc15d2022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/csarrazi/CsaGuzzleBundle/zipball/7a69201bb5f1c60e11ca6a1e00f630ca0fe47806",
-                "reference": "7a69201bb5f1c60e11ca6a1e00f630ca0fe47806",
+                "url": "https://api.github.com/repos/csarrazi/CsaGuzzleBundle/zipball/c54f9daeae991f922fdc0b80fdcccf7cc15d2022",
+                "reference": "c54f9daeae991f922fdc0b80fdcccf7cc15d2022",
                 "shasum": ""
             },
             "require": {
@@ -798,17 +798,17 @@
                 "csa/guzzle-stopwatch-middleware": "^1.0.0",
                 "guzzlehttp/guzzle": "^6.1",
                 "php": "^7.1",
-                "symfony/dependency-injection": "^2.8|^3.0|^4.0",
-                "symfony/filesystem": "^2.8|^3.0|^4.0",
-                "symfony/framework-bundle": "^2.8|^3.0|^4.0",
-                "twig/twig": "^1.34|^2.4"
+                "symfony/dependency-injection": "^2.8 || ^3.0 || ^4.0",
+                "symfony/filesystem": "^2.8 || ^3.0 || ^4.0",
+                "symfony/framework-bundle": "^2.8 || ^3.0 || ^4.0",
+                "twig/twig": "^1.34 || ^2.4"
             },
             "require-dev": {
                 "namshi/cuzzle": "^2.0",
                 "phpunit/phpunit": "^7.0",
-                "symfony/phpunit-bridge": "^2.8|^3.0|^4.0",
-                "symfony/web-profiler-bundle": "^2.8|^3.0|^4.0",
-                "symfony/yaml": "^2.8|^3.0|^4.0"
+                "symfony/phpunit-bridge": "^2.8 || ^3.0 || ^4.0",
+                "symfony/web-profiler-bundle": "^2.8 || ^3.0 || ^4.0",
+                "symfony/yaml": "^2.8 || ^3.0 || ^4.0"
             },
             "suggest": {
                 "doctrine/cache": "Allows caching of responses",
@@ -820,7 +820,7 @@
             "extra": {
                 "branch-alias": {
                     "dev-2.x": "2.3-dev",
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -839,7 +839,7 @@
                 }
             ],
             "description": "A bundle integrating GuzzleHttp >= 4.0",
-            "time": "2018-06-06T07:53:05+00:00"
+            "time": "2019-01-25T14:50:10+00:00"
         },
         {
             "name": "csa/guzzle-cache-middleware",
@@ -12032,23 +12032,23 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.2.7",
+            "version": "5.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "8560d4314577199ba51bf2032f02cd1315587c23"
+                "reference": "dcb6e1006bb5fd1e392b4daa68932880f37550d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/8560d4314577199ba51bf2032f02cd1315587c23",
-                "reference": "8560d4314577199ba51bf2032f02cd1315587c23",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/dcb6e1006bb5fd1e392b4daa68932880f37550d4",
+                "reference": "dcb6e1006bb5fd1e392b4daa68932880f37550d4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.1",
+                "friendsofphp/php-cs-fixer": "~2.2.20",
                 "json-schema/json-schema-test-suite": "1.2.0",
                 "phpunit/phpunit": "^4.8.35"
             },
@@ -12094,7 +12094,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2018-02-14T22:26:30+00:00"
+            "time": "2019-01-14T23:55:14+00:00"
         },
         {
             "name": "myclabs/deep-copy",
