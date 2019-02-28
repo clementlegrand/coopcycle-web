@@ -73,7 +73,7 @@
         "sylius/product-bundle": "^1.2",
         "duccio/apns-php": "^1.0",
         "sylius/taxonomy-bundle": "^1.2",
-        "sonata-project/seo-bundle": "^2.5",
+        "sonata-project/seo-bundle": "^2.7",
         "sylius/currency-bundle": "^1.2",
         "geocoder-php/google-maps-provider": "^4.2",
         "php-http/guzzle6-adapter": "^1.1",
