@@ -357,3 +357,14 @@ sensio_framework_extra:
 
 webpack_encore:
     output_path: '%kernel.project_dir%/web'
+
+oneup_uploader:
+    mappings:
+        restaurant:
+            frontend: dropzone
+            storage:
+              directory: '%kernel.root_dir%/../web/images/restaurants'
+            allowed_mimetypes:
+                image/jpg: []
+                image/jpeg: []
+                image/png: []
